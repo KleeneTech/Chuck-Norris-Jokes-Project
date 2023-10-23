@@ -10,7 +10,6 @@ body {
   line-height: 1.5;
   padding: 0 40px;
   background: #01aeff;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,9 +66,12 @@ button:hover {
 
 @media screen and (max-width: 767px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .container {
     width: 100%;
+  }
+  button {
+    padding: 10px;
   }
 }
