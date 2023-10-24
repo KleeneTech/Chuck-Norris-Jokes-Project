@@ -30,6 +30,7 @@ h2 {
   color: #000000;
   border-radius: 20px;
   font-size: 1.5rem;
+  border-bottom: 2px solid black;
 }
 
 button {
@@ -38,26 +39,21 @@ button {
   border: 0;
   color: #ffffff;
   text-decoration: none;
-  padding: 15px 30px;
-  margin: 90px 70px 60px 90px;
-  border-radius: 20px;
+  padding: 15px 20px;
+  margin-left: 25%;
+  border-radius: 25px;
   cursor: pointer;
   font-size: 1rem;
   text-align: center;
-  transition: 2s;
   box-shadow: 0 1px 3px rgba(117, 117, 117, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-button:hover {
-  background-color: black;
-  color: #ffffff;
 }
 
 .joke {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 300;
-  padding-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   overflow-wrap: break-word;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
@@ -73,5 +69,10 @@ button:hover {
   }
   button {
     padding: 10px;
+    font-size: 14px;
+    margin-left: 30%;
+  }
+  .joke {
+    padding: 20px;
   }
 }
