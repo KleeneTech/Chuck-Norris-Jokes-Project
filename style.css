@@ -9,7 +9,7 @@
 body {
   line-height: 1.5;
   padding: 0 40px;
-  background: #01aeff;
+  background: #004261;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,16 +26,19 @@ body {
 
 h2 {
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   color: #000000;
   border-radius: 20px;
   font-size: 1.5rem;
-  border-bottom: 2px solid black;
+  border-top: 0;
+  border-left: 0;
+  border-right: none;
+  border-bottom: 1px solid black;
 }
 
 button {
   display: inline-block;
-  background: #0166ff;
+  background: #003079;
   border: 0;
   color: #ffffff;
   text-decoration: none;
@@ -74,5 +77,8 @@ button {
   }
   .joke {
     padding: 20px;
+  }
+  h2 {
+    font-size: 1.3rem;
   }
 }
